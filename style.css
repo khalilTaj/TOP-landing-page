@@ -108,3 +108,27 @@ button {
     color: #E5E7EB;
     font-size: 24px;
 }
+
+#quote_Section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+#quote_section p {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#quote_Section div {
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 80px 0;
+}
+
+#quote_Section h5 {
+    margin-left: auto;
+}
