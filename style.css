@@ -1,14 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: red solid 1px; */
+    border: red solid 1px;
+    font-family: "Roboto";
 }
 
 #Section_one {
     background-color: #1F2937;
-    font-family: "Roboto";
-    padding: 20px 15% 20px 15%;
-    
+    padding: 20px 15% 20px 15%;  
 }
 
 .header {
@@ -68,6 +67,22 @@ button {
 }
 
 .intro p {
-    color: #f9faf8;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+#info_Section h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card img {
+    border: #3882f6 4px solid;
+    border-radius: 15px;
+}
+
+.card p {
+    color: #E5E7EB;
     font-size: 24px;
 }
