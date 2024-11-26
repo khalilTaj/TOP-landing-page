@@ -132,3 +132,30 @@ button {
 #quote_Section h5 {
     margin-left: auto;
 }
+
+#action_Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50 250 50 250;
+    padding: 50 0 50 0;
+    background-color: #3882f6;
+    justify-content: space-around;
+}
+
+#action_Section h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#action_Section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#action_Section button {
+    border: #E5E7EB 1px solid;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 25px 5px 25px;
+}
