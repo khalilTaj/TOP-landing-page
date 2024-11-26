@@ -159,3 +159,13 @@ button {
     font-weight: bold;
     padding: 5px 25px 5px 25px;
 }
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    font-size: 18px;
+}
