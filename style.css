@@ -1,5 +1,30 @@
 * {
     margin: 0;
     padding: 0;
-    border: red solid 3px;
+    border: red solid 1px;
+}
+
+#Section_one {
+    background-color: #1F2937;
+    font-family: "Roboto";
+}
+
+.header , .intro p{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.toolBar {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 6px;
 }
