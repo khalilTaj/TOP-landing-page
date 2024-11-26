@@ -1,17 +1,55 @@
 * {
     margin: 0;
     padding: 0;
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 #Section_one {
     background-color: #1F2937;
     font-family: "Roboto";
+    padding: 20px 15% 20px 15%;
+    
 }
 
 .header {
     color: #f9faf8;
     font-size: 24px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.bulk {
+    margin: 90px 0 90px 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.bulk img {
+    height: 162px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro button {
+    padding: 5px 35px 5px 35px;
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 150px;
 }
 
 .toolBar {
