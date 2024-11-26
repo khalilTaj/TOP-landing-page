@@ -141,6 +141,7 @@ button {
     padding: 50 0 50 0;
     background-color: #3882f6;
     justify-content: space-around;
+    border-radius: 15px;
 }
 
 #action_Section h2 {
