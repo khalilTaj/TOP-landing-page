@@ -71,15 +71,37 @@ button {
     font-size: 24px;
 }
 
+#info_Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #info_Section h1 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 35px;
+}
+
+.cards {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
     border: #3882f6 4px solid;
     border-radius: 15px;
+    width: 180px;
 }
 
 .card p {
